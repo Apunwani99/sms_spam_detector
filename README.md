@@ -1,1 +1,3 @@
 # sms_spam_detector
+
+In this challenge, we have refactored code from an SMS text classification solution into a function that constructs a linear Support Vector Classification model. After the model is created and trained it is turned into a gradio app to enable users to test text messages. Based on the models performance the application will respond telling the user if the message is or is not spam.
